@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0
+}
+html,body{
+    height:100%;
+    width: 100%;
+    max-height: 90%;
+    max-width:100%;
+}
+body{
+    background-color:black;
+}
+
+@font-face {
+    font-family: catamaran;
+    src: url(../fonts/Catamaran.woff) format("woff");
+}
+@font-face {
+    font-family: somatic;
+    src: url("../fonts/Somatic-Rounded.woff");
+}
+#p{
+    font-family: somatic;
+    font-size:40px;
+    text-align: center;
+    color:white;
+    margin-top:3%;
+    margin-bottom:6%;
+}
+.content{
+    display: block;
+    margin: 0 auto;
+    height:300px;
+    width:70%;
+    
+
+}
+.content p{
+    font-family: catamaran;
+    text-align: center;
+    font-size:30px;
+    color:white;
+}
+
+@media only screen and (max-device-width:360px){
+    .content{
+        width:80%;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+@media only screen and (max-device-width:600px){
+    .content{
+        width:80%;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+
+@media only screen and (max-device-width:320px){
+    .content{
+        width:80%;
+        margin-top:20px;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+
+@media only screen and (max-device-width:712px){
+    .content{
+        width:80%;
+        margin-top:20px;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+
+@media only screen and (max-device-width:800px){
+    .content{
+        width:80%;
+        margin-top:20px;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+@media only screen and (max-device-width:240px){
+    .content{
+        width:80%;
+        margin-top:40px;
+        
+    }
+    .content p{
+        font-size: 13px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+@media only screen and (max-device-width:820px){
+    .content{
+        width:80%;
+        margin-top:20px;
+        
+    }
+    .content p{
+        font-size: 20px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+@media only screen and (max-device-width:280px){
+    .content{
+        width:80%;
+        margin-top:20px;
+        
+    }
+    .content p{
+        font-size: 16px;
+    }
+    #p{
+        margin-bottom:6%;
+    }
+
+}
+
+
+
+
+

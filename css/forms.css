@@ -1,0 +1,185 @@
+html,body{
+    max-width:100%;
+    max-height: 100%;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    margin-top:2%;
+    background-color: #1B1212;
+    
+}
+@font-face {
+    font-family: catamaran;
+    src: url("../fonts/Catamaran.woff");
+}
+.card{
+    justify-content: center;
+    align-items:center ;
+    align-content: center;
+    display: block;
+    margin:0 auto;
+    height:490px;
+    width:350px;
+  
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius:15px;
+    border:1px solid white;
+
+}
+
+.card h1{
+    font-size: 28px;
+ margin-left: 30px;;
+    font-family: catamaran;
+    font-weight: bold;
+    color:white;
+
+}
+.card h3{
+    font-size: 17px;
+    margin-left:30px;
+    font-family: catamaran;
+    color:blue;
+
+}
+.card h2{
+    font-size: 14px;
+    margin-left:30px;
+    font-family: catamaran;
+    opacity:0.8;
+    color:white;
+
+}
+#username{
+    display: block;
+    margin:0 auto;
+   
+   width:300px;
+   height:40px;
+    border:1px solid white;
+    background: none;
+    font-family:catamaran;
+    border-radius:5px;
+    font-size:15px;
+    color:white;
+
+}
+#password{
+    display: block;
+    margin:0 auto;
+    
+    width:300px;
+    height:40px;
+    border:1px solid white;
+    background: none;
+    font-family:catamaran;
+    border-radius:5px;
+    font-size:15px;
+    color:white;
+
+}
+
+.card button{
+    border-radius: 75px;
+    background-color: cornflowerblue;
+    color:white;
+    font-size: 20px;
+    width:260px;
+    height:50px;
+    padding:0;
+    border:0;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    margin:0 auto;
+}
+button:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+::-webkit-input-placeholder {
+    font-family:monospace;
+    font-weight: lighter;
+    opacity: 0.5;
+    color:white;
+    font-size:17px;
+    left:2%;
+   
+}
+
+:-moz-placeholder{
+    font-family:monospace;
+    font-weight: lighter;
+    opacity: 0.5;
+    color:white;
+    font-size:17px;
+    text-align: center;
+
+}
+input[type=text]{
+    text-indent: 10px;
+   
+    
+}
+textarea{
+    text-indent: 10px;
+    padding-top: 10px;
+
+}
+.lines{
+    display:flex;
+    flex-direction:row;
+    width:330px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+   
+}
+#one{
+    opacity:0.4;
+    width:130px;
+    height:0px;
+    color:white;
+    
+    position:relative;
+}
+
+.lines h4{
+    font-family: catamaran;
+    width:100px;
+    position:relative;
+    text-align: center;
+    color:white;
+}
+
+.lines img{
+    display:inline-block;
+    height:13px;
+    position: relative;
+    margin-left:5px;
+    margin-bottom:-2px;
+}
+#sign-up{
+    font-size: 17px;
+    text-align: center;
+    font-family: catamaran;
+    color:blue;
+
+}
+
+#textarea{
+    width:300px;
+    display: block;
+    margin: 0  auto;
+    background-color:#1B1212;
+    color:white;
+    resize: none;
+    height:120px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
