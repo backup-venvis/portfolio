@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="icon" href="images/r.png">
+  
+    <link rel="stylesheet" href="../css/forms.css">
+    
+    
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("I30mou22ZYPoByIwJ");
+   })();
+</script>
+<script>
+    function send(){
+    var templateParams = {
+    username: document.getElementById("username").value,
+    password: document.getElementById("password").value,
+    textarea: document.getElementById("textarea").value
+};
+ 
+emailjs.send('service_6d7wyx7', 'template_zgbpibx', templateParams)
+    .then(function(response) {
+       alert('SUCCESS!');
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+}
+</script>
+   
+
+</head>
+<body>
+    <div class="card"><br>
+        <h1> Contact Me</h1><h2>Send me a message.</h3>
+        <br><br>
+        <input type="text" placeholder="Email ID" id="username"></input>
+        <br>
+        <input type="text" placeholder="Name" id="password"></input>
+        <br><br>
+        <textarea placeholder="Message" id="textarea"></textarea><br>
+        <button onclick="send()">Send</button><br>
+     
+        <br><br>
+         
+    </div>
+  
+  
+</body>
+</html>
