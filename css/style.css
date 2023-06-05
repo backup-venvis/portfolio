@@ -141,171 +141,268 @@ a{
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 15%;
     }
     .card img{
-        height:370px;
+        height:65%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
     }
     .logos img{
         height:100px;
     }
 }
-@media only screen and (max-device-width:600px){
+@media only screen and (min-device-width:361px) and (max-device-width:600px){
     .nav h3{
         font-size:43px;
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 5%;
     }
     .card img{
-        height:370px;
+        height:45%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
     }
     .logos img{
         height:100px;
     }
+
+
 }
-@media only screen and (max-device-width:712px){
+@media only screen and (min-device-width:601px) and (max-device-width:712px){
     .nav h3{
         font-size:43px;
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 5%;
     }
     .card img{
-        height:370px;
+        height:45%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
     }
     .logos img{
         height:100px;
     }
+
+
+}
+@media only screen and (min-device-width:713px) and (max-device-width:800px){
+    .nav h3{
+        font-size:43px;
+      
+    }
+    .nav{
+        margin-bottom:10%;
+    }
+    .card{
+        height:1200px;
+        width:900px;
+        margin-bottom: 5%;
+    }
+    .card img{
+        height:45%;
+    }
+    .card h2{
+        font-size:75px;
+    }
+    .card p{
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
+    }
+    .logos img{
+        height:100px;
+    }
+
+
+}
+@media only screen and (min-device-width:361px) and (max-device-width:414px){
+    .nav h3{
+        font-size:43px;
+      
+    }
+    .nav{
+        margin-bottom:10%;
+    }
+    .card{
+        height:1400px;
+        width:900px;
+        margin-bottom: 20%;
+    }
+    .card img{
+        height:55%;
+    }
+    .card h2{
+        font-size:95px;
+    }
+    .card p{
+        font-size:58px;
+    }
+    .logos{
+        margin-top:-20%;
+    }
+    .logos img{
+        height:100px;
+    }
+
+
+}
+@media only screen and (min-device-width:801px) and (max-device-width:820px){
+    .nav h3{
+        font-size:43px;
+      
+    }
+    .nav{
+        margin-bottom:10%;
+    }
+    .card{
+        height:1200px;
+        width:900px;
+        margin-bottom: 5%;
+    }
+    .card img{
+        height:45%;
+    }
+    .card h2{
+        font-size:75px;
+    }
+    .card p{
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
+    }
+    .logos img{
+        height:100px;
+    }
+
+
 }
 
-@media only screen and (max-device-width:800px){
+@media only screen and (min-device-width:821px) and (max-device-width:912px){
     .nav h3{
         font-size:43px;
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 5%;
     }
     .card img{
-        height:370px;
+        height:45%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
     }
     .logos img{
         height:100px;
     }
+
+
 }
-@media only screen and (max-device-width:820px){
+@media only screen and (min-device-width:912px) and (max-device-width:1024px){
     .nav h3{
         font-size:43px;
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 5%;
     }
     .card img{
-        height:370px;
+        height:45%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
+    }
+    .logos{
+        margin-top:-20%;
     }
     .logos img{
         height:100px;
     }
+
+
 }
-@media only screen and (max-device-width:912px){
+@media only screen and (min-device-width:1025px) and (max-device-width:1280px){
     .nav h3{
         font-size:43px;
       
     }
     .nav{
-        margin-bottom:20%;
+        margin-bottom:10%;
     }
     .card{
-        height:800px;
+        height:1200px;
         width:900px;
+        margin-bottom: 5%;
     }
     .card img{
-        height:370px;
+        height:45%;
     }
     .card h2{
-        font-size:55px;
+        font-size:75px;
     }
     .card p{
-        font-size:49px;
+        font-size:52px;
     }
-    .logos img{
-        height:100px;
-    }
-}
-@media only screen and (max-device-width:1024px){
-    .nav h3{
-        font-size:43px;
-      
-    }
-    .nav{
-        margin-bottom:20%;
-    }
-    .card{
-        height:800px;
-        width:900px;
-    }
-    .card img{
-        height:370px;
-    }
-    .card h2{
-        font-size:55px;
-    }
-    .card p{
-        font-size:49px;
+    .logos{
+        margin-top:-20%;
     }
     .logos img{
         height:100px;
